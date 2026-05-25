@@ -1,0 +1,948 @@
+[
+  {
+    "id": 1,
+    "question": "Un paquet client est reçu par un serveur. Le paquet a un numéro de port de destination de 53. Quel service le client demande-t-il ?",
+    "image": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "DNS"
+      },
+      {
+        "label": "B",
+        "text": "NetBIOS (NetBT)"
+      },
+      {
+        "label": "C",
+        "text": "POP3"
+      },
+      {
+        "label": "D",
+        "text": "IMAP"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "multi": false,
+    "correctCount": 1,
+    "explanation": ""
+  },
+  {
+    "id": 2,
+    "question": "Quel service est fourni par HTTPS?",
+    "image": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "Utilise le cryptage pour sécuriser l’échange de texte, d’images graphiques, de sons et de vidéos sur le Web."
+      },
+      {
+        "label": "B",
+        "text": "Traduit des noms de domaines (par exemple, cisco.com) en adresses IP"
+      },
+      {
+        "label": "C",
+        "text": "Permet l’accès à distance aux périphériques et serveurs réseau."
+      },
+      {
+        "label": "D",
+        "text": "Utilise le chiffrement pour fournir un accès distant sécurisé aux périphériques et serveurs réseau."
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "multi": false,
+    "correctCount": 1,
+    "explanation": ""
+  },
+  {
+    "id": 3,
+    "question": "Quelle commande peut être utilisée sur un PC Windows pour afficher la configuration IP de cet ordinateur ?",
+    "image": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "ipconfig"
+      },
+      {
+        "label": "B",
+        "text": "ping"
+      },
+      {
+        "label": "C",
+        "text": "show ip interface brief"
+      },
+      {
+        "label": "D",
+        "text": "show interfaces"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "multi": false,
+    "correctCount": 1,
+    "explanation": ""
+  },
+  {
+    "id": 4,
+    "question": "Un nouvel administrateur de réseau a été invité à saisir un message de bannière sur un appareil Cisco. Quel est le moyen le plus rapide pour un administrateur de réseau de vérifier si la bannière est correctement configurée ?",
+    "image": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "Quittez le mode d’exécution privilégié et appuyez sur Enter ."
+      },
+      {
+        "label": "B",
+        "text": "Quittez le mode de configuration globale."
+      },
+      {
+        "label": "C",
+        "text": "Éteignez le téléphone puis rallumez-le."
+      },
+      {
+        "label": "D",
+        "text": "Redémarrez l’appareil."
+      },
+      {
+        "label": "E",
+        "text": "Saisissez CTRL-Z à l’invite de mode privilégié."
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "multi": false,
+    "correctCount": 1,
+    "explanation": ""
+  },
+  {
+    "id": 5,
+    "question": "Quelles sont deux caractéristiques du protocole IP ? (Choisissez deux propositions.)",
+    "image": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "Fonctionne indépendamment des supports réseau."
+      },
+      {
+        "label": "B",
+        "text": "Ne nécessite pas de connexion dédiée de bout en bout."
+      },
+      {
+        "label": "C",
+        "text": "Reconstitue dans le bon ordre les segments désordonnés côté destination."
+      },
+      {
+        "label": "D",
+        "text": "Retransmet les paquets en cas d’erreur."
+      },
+      {
+        "label": "E",
+        "text": "Garantit la remise des paquets."
+      }
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "multi": true,
+    "correctCount": 2,
+    "explanation": "Explique: Le protocole Internet (IP) est un protocole sans connexion et au mieux. Cela signifie qu’IP ne nécessite aucune connexion de bout en bout et ne garantit pas la livraison des paquets. IP est également indépendant du support, ce qui signifie qu’il fonctionne indépendamment du support réseau transportant les paquets."
+  },
+  {
+    "id": 6,
+    "question": "Quelle valeur, qui se trouve dans un champ d’en-tête IPv4, est diminuée par chaque routeur qui reçoit un paquet ?",
+    "image": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "Décalage du fragment"
+      },
+      {
+        "label": "B",
+        "text": "Time To Live (durée de vie)"
+      },
+      {
+        "label": "C",
+        "text": "Longueur d’en-tête"
+      },
+      {
+        "label": "D",
+        "text": "Services différenciés"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "multi": false,
+    "correctCount": 1,
+    "explanation": "Explique: Lorsqu’un routeur reçoit un paquet, le routeur décrémentera le champ Time-to-Live (TTL) de un. Lorsque le champ atteint zéro, le routeur destinataire rejettera le paquet et enverra un message ICMP Time Exceeded à l’expéditeur."
+  },
+  {
+    "id": 7,
+    "question": "Quelle caractéristique décrit un VPN ?",
+    "image": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "logiciel sur un routeur qui filtre le trafic en fonction des adresses IP ou des applications"
+      },
+      {
+        "label": "B",
+        "text": "logiciel qui identifie les menaces à propagation rapide"
+      },
+      {
+        "label": "C",
+        "text": "un protocole de tunnel qui fournit aux utilisateurs distants un accès sécurisé au réseau d’une organisation"
+      },
+      {
+        "label": "D",
+        "text": "un appareil réseau qui filtre l’accès et le trafic entrant dans un réseau"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "multi": false,
+    "correctCount": 1,
+    "explanation": ""
+  },
+  {
+    "id": 8,
+    "question": "Que sont les protocoles propriétaires ?",
+    "image": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "Des protocoles qui peuvent être librement utilisés par toute entreprise ou tout fournisseur"
+      },
+      {
+        "label": "B",
+        "text": "Un ensemble de protocoles connus sous le nom de suite de protocoles TCP/IP"
+      },
+      {
+        "label": "C",
+        "text": "Des protocoles développés par des entreprises qui contrôlent leur définition et leur fonctionnement"
+      },
+      {
+        "label": "D",
+        "text": "Des protocoles développés par des organismes privés pour fonctionner avec du matériel provenant de tout fournisseur"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "multi": false,
+    "correctCount": 1,
+    "explanation": "Explique: Les protocoles propriétaires ont leur définition et leur fonctionnement contrôlés par une entreprise ou un fournisseur. Certains d’entre eux peuvent être utilisés par différentes organisations avec l’autorisation du propriétaire. La suite de protocoles TCP/IP est une norme ouverte et non un protocole propriétaire."
+  },
+  {
+    "id": 9,
+    "question": "Quelle caractéristique décrit un logiciel espion ?",
+    "image": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "un appareil réseau qui filtre l’accès et le trafic entrant dans un réseau"
+      },
+      {
+        "label": "B",
+        "text": "logiciel installé sur l’appareil de l’utilisateur et collectant des informations sur l’utilisateur"
+      },
+      {
+        "label": "C",
+        "text": "une attaque qui ralentit ou bloque un appareil ou un service réseau"
+      },
+      {
+        "label": "D",
+        "text": "l’utilisation d’identifiants volés pour accéder à des données privées"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "multi": false,
+    "correctCount": 1,
+    "explanation": ""
+  },
+  {
+    "id": 10,
+    "question": "Que signifie le terme «atténuation» dans la communication de données?",
+    "image": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "temps pour qu’un signal atteigne sa destination"
+      },
+      {
+        "label": "B",
+        "text": "fuite de signaux d’une paire de câbles à une autre"
+      },
+      {
+        "label": "C",
+        "text": "renforcement d’un signal par un dispositif de mise en réseau"
+      },
+      {
+        "label": "D",
+        "text": "perte de puissance du signal à mesure que la distance augmente"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "multi": false,
+    "correctCount": 1,
+    "explanation": ""
+  },
+  {
+    "id": 11,
+    "question": "Quels sont les deux protocoles qui interviennent sur la couche supérieure de la pile de protocoles TCP/IP? (Choisissez deux réponses.)",
+    "image": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "POP"
+      },
+      {
+        "label": "B",
+        "text": "DNS"
+      },
+      {
+        "label": "C",
+        "text": "TCP"
+      },
+      {
+        "label": "D",
+        "text": "Ethernet"
+      },
+      {
+        "label": "E",
+        "text": "UDP"
+      },
+      {
+        "label": "F",
+        "text": "IP"
+      }
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "multi": true,
+    "correctCount": 2,
+    "explanation": ""
+  },
+  {
+    "id": 12,
+    "question": "Une imprimante laser filaire est connectée à un ordinateur personnel. Cette imprimante a été partagée afin que d’autres ordinateurs du réseau domestique puissent également utiliser l’imprimante. Quel modèle de réseau est utilisé ?",
+    "image": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "basé sur le client"
+      },
+      {
+        "label": "B",
+        "text": "maître-esclave"
+      },
+      {
+        "label": "C",
+        "text": "point à point"
+      },
+      {
+        "label": "D",
+        "text": "pair à pair (P2P)"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "multi": false,
+    "correctCount": 1,
+    "explanation": "Explique: Les réseaux peer-to-peer (P2P) ont deux périphériques réseau ou plus qui peuvent partager des ressources telles que des imprimantes ou des fichiers sans avoir de serveur dédié."
+  },
+  {
+    "id": 13,
+    "question": "Quelles sont les fonctions fournies par la couche réseau ? (Choisissez deux réponses.)",
+    "image": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "Fournir des connexions de bout en bout dédiées"
+      },
+      {
+        "label": "B",
+        "text": "Diriger les paquets de données vers les hôtes de destination sur d’autres réseaux"
+      },
+      {
+        "label": "C",
+        "text": "Placer des données sur le support réseau"
+      },
+      {
+        "label": "D",
+        "text": "Fournir des périphériques finaux dotés d’un identificateur de réseau unique"
+      },
+      {
+        "label": "E",
+        "text": "Transport de données entre des processus s’exécutant sur les hôtes source et de destination"
+      }
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "multi": true,
+    "correctCount": 2,
+    "explanation": ""
+  },
+  {
+    "id": 14,
+    "question": "Quelle caractéristique décrit un logiciel antivirus ?",
+    "image": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "applications qui protègent les terminaux contre l’infection par des logiciels malveillants"
+      },
+      {
+        "label": "B",
+        "text": "un appareil réseau qui filtre l’accès et le trafic entrant dans un réseau"
+      },
+      {
+        "label": "C",
+        "text": "un protocole de tunneling qui fournit aux utilisateurs distants un accès sécurisé au réseau d’une organisation"
+      },
+      {
+        "label": "D",
+        "text": "logiciel sur un routeur qui filtre le trafic en fonction des adresses IP ou des applications"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "multi": false,
+    "correctCount": 1,
+    "explanation": ""
+  },
+  {
+    "id": 15,
+    "question": "Quels sont les deux déclarations qui décrivent avec précision un avantage ou un inconvénient lors du déploiement de la NAT pour IPv4 dans un réseau ? (Choisissez deux réponses.)",
+    "image": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "NAT introduit des problèmes pour certaines applications nécessitant une connectivité de bout en bout."
+      },
+      {
+        "label": "B",
+        "text": "NAT fournit une solution pour ralentir l’épuisement des adresses IPv4."
+      },
+      {
+        "label": "C",
+        "text": "Le NAT aura un impact négatif sur les performances des commutateurs."
+      },
+      {
+        "label": "D",
+        "text": "NAT améliore le traitement des paquets."
+      },
+      {
+        "label": "E",
+        "text": "NAT permet aux tables de routage d’inclure plus d’informations."
+      },
+      {
+        "label": "F",
+        "text": "NAT ajoute une capacité d’authentification à IPv4."
+      }
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "multi": true,
+    "correctCount": 2,
+    "explanation": "Explique: La traduction d’adresses réseau (NAT) est une technologie qui est implémentée dans les réseaux IPv4. Une application de NAT consiste à utiliser des adresses IP privées à l’intérieur d’un réseau et à utiliser NAT pour partager quelques adresses IP publiques pour de nombreux hôtes internes. De cette façon, il fournit une solution pour ralentir l’épuisement des adresses IPv4. Cependant, étant donné que NAT masque les adresses IP réelles utilisées par les périphériques finaux, cela peut entraîner des problèmes pour certaines applications nécessitant une connectivité de bout en bout."
+  },
+  {
+    "id": 16,
+    "question": "Quelle caractéristique décrit un logiciel publicitaire ?",
+    "image": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "un appareil réseau qui filtre l’accès et le trafic entrant dans un réseau"
+      },
+      {
+        "label": "B",
+        "text": "logiciel installé sur l’appareil de l’utilisateur et collectant des informations sur l’utilisateur"
+      },
+      {
+        "label": "C",
+        "text": "l’utilisation d’identifiants volés pour accéder à des données privées"
+      },
+      {
+        "label": "D",
+        "text": "une attaque qui ralentit ou bloque un appareil ou un service réseau"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "multi": false,
+    "correctCount": 1,
+    "explanation": ""
+  },
+  {
+    "id": 17,
+    "question": "Un utilisateur se plaint qu’une page Web externe prend plus de temps que la normale pour se charger. La page Web finit par se charger sur la machine utilisateur. Quel outil le technicien doit-il utiliser avec les privilèges d’administrateur pour localiser le problème dans le réseau?",
+    "image": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "nslookup"
+      },
+      {
+        "label": "B",
+        "text": "ping"
+      },
+      {
+        "label": "C",
+        "text": "tracert"
+      },
+      {
+        "label": "D",
+        "text": "ipconfig /displaydns"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "multi": false,
+    "correctCount": 1,
+    "explanation": ""
+  },
+  {
+    "id": 18,
+    "question": "Quelles sont les deux principales responsabilités de la sous-couche Ethernet MAC ? (Choisissez deux réponses.)",
+    "image": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "détection d’erreurs"
+      },
+      {
+        "label": "B",
+        "text": "délimitation du cadre"
+      },
+      {
+        "label": "C",
+        "text": "accéder aux médias"
+      },
+      {
+        "label": "D",
+        "text": "encapsulation de données"
+      },
+      {
+        "label": "E",
+        "text": "adressage logique"
+      }
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "multi": true,
+    "correctCount": 2,
+    "explanation": ""
+  },
+  {
+    "id": 19,
+    "question": "Quel service est fourni par BOOTP ?",
+    "image": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "Utilise le cryptage pour sécuriser l’échange de texte, d’images graphiques, de sons et de vidéos sur le Web."
+      },
+      {
+        "label": "B",
+        "text": "Permet les transferts de données entre un client et un serveur de fichiers."
+      },
+      {
+        "label": "C",
+        "text": "Application héritée qui permet à un poste de travail sans disque de découvrir sa propre adresse IP et de trouver un serveur BOOTP sur le réseau."
+      },
+      {
+        "label": "D",
+        "text": "Un ensemble de règles de base pour l’échange de texte, d’images graphiques, de sons, de vidéos et d’autres fichiers multimédias sur le Web."
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "multi": false,
+    "correctCount": 1,
+    "explanation": ""
+  },
+  {
+    "id": 20,
+    "question": "Quelle est l’une des principales caractéristiques de la couche de liaison de données?",
+    "image": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "Il convertit un flux de bits de données en un code prédéfini."
+      },
+      {
+        "label": "B",
+        "text": "Il empêche le protocole de couche supérieure de connaître le support physique à utiliser dans la communication."
+      },
+      {
+        "label": "C",
+        "text": "Il accepte les paquets de la couche 3 et décide du chemin par lequel le paquet doit être transmis à un réseau distant."
+      },
+      {
+        "label": "D",
+        "text": "La couche physique doit générer les signaux électriques, optiques ou sans fil qui représentent le 1 et le 0 sur le support."
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "multi": false,
+    "correctCount": 1,
+    "explanation": ""
+  },
+  {
+    "id": 21,
+    "question": "Un administrateur réseau ajoute un nouveau réseau local à une filiale. Le nouveau réseau local doit prendre en charge 200 périphériques connectés. Quel est le plus petit masque réseau que l’administrateur réseau peut utiliser pour le nouveau réseau?",
+    "image": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "255.255.255.192"
+      },
+      {
+        "label": "B",
+        "text": "255.255.255.0"
+      },
+      {
+        "label": "C",
+        "text": "255.255.255.224"
+      },
+      {
+        "label": "D",
+        "text": "255.255.255.240"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "multi": false,
+    "correctCount": 1,
+    "explanation": ""
+  },
+  {
+    "id": 22,
+    "question": "Quel scénario décrit une fonction fournie par la couche transport ?",
+    "image": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "Un employé d’une entreprise accède à un serveur Web situé sur un réseau d’entreprise. La couche transport formate l’écran afin que la page Web s’affiche correctement quel que soit le périphérique utilisé pour accéder au site Web."
+      },
+      {
+        "label": "B",
+        "text": "Un étudiant regarde un petit film sur le Web avec le son activé. Le film et le son sont codés dans l’en-tête de la couche transport."
+      },
+      {
+        "label": "C",
+        "text": "Un étudiant a deux fenêtres de navigateur Web ouvertes pour accéder à deux sites Web. La couche transport s’assure que la page Web appropriée est envoyée vers la fenêtre de navigateur appropriée."
+      },
+      {
+        "label": "D",
+        "text": "Un étudiant utilise un téléphone VoIP d’une salle de classe pour appeler chez lui. L’identifiant unique stocké dans le téléphone est une adresse de couche transport utilisée pour contacter un autre périphérique réseau sur le même réseau."
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "multi": false,
+    "correctCount": 1,
+    "explanation": "Explique: Les numéros de port source et de destination sont utilisés pour identifier l’application et la fenêtre correctes au sein de cette application."
+  },
+  {
+    "id": 23,
+    "question": "Quel champ de trame est créé par un nœud source et utilisé par un nœud de destination pour s’assurer qu’un signal de données transmis n’a pas été modifié par interférence, distorsion ou perte de signal?",
+    "image": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "Champ Séquence de contrôle de trame"
+      },
+      {
+        "label": "B",
+        "text": "champ de processus de correction d’erreur"
+      },
+      {
+        "label": "C",
+        "text": "Protocole UDP (User Datagram Protocol)"
+      },
+      {
+        "label": "D",
+        "text": "Champ de contrôle de flux"
+      },
+      {
+        "label": "E",
+        "text": "champ de vérification des erreurs de couche de transport"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "multi": false,
+    "correctCount": 1,
+    "explanation": ""
+  },
+  {
+    "id": 24,
+    "question": "Quelles propositions sont correctes dans le cadre de la comparaison des en-têtes de paquet IPv4 et IPv6 ? (Choisissez deux réponses.)",
+    "image": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "Le champ Durée de vie d’IPv4 a été remplacé par le champ Limite de nombre de sauts dans IPv6."
+      },
+      {
+        "label": "B",
+        "text": "Le nom du champ Somme de contrôle d’en-tête d’IPv4 est conservé dans IPv6."
+      },
+      {
+        "label": "C",
+        "text": "Le champ Version d’IPv4 n’est pas conservé dans IPv6."
+      },
+      {
+        "label": "D",
+        "text": "Le champ Adresse de destination est une nouveauté d’IPv6."
+      },
+      {
+        "label": "E",
+        "text": "Le nom du champ Adresse source d’IPv4 est conservé dans IPv6."
+      }
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "multi": true,
+    "correctCount": 2,
+    "explanation": ""
+  },
+  {
+    "id": 25,
+    "question": "Les protocoles utilisés dans la communication réseau pour transmettre des messages sur un réseau définissent trois conditions de transmission précises. Lesquelles ? (Choisissez trois propositions.)",
+    "image": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "Le codage des messages"
+      },
+      {
+        "label": "B",
+        "text": "L’installation du périphérique terminal"
+      },
+      {
+        "label": "C",
+        "text": "Les caractéristiques des connecteurs"
+      },
+      {
+        "label": "D",
+        "text": "Les options de remise du message"
+      },
+      {
+        "label": "E",
+        "text": "La taille du message"
+      },
+      {
+        "label": "F",
+        "text": "La sélection des supports"
+      }
+    ],
+    "correct": [
+      "A",
+      "B",
+      "C"
+    ],
+    "multi": true,
+    "correctCount": 3,
+    "explanation": ""
+  },
+  {
+    "id": 26,
+    "question": "Quel sous-réseau comprend l’adresse 192.168.1.96 en tant qu’adresse d’hôte utilisable ?",
+    "image": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "192.168.1.64/26"
+      },
+      {
+        "label": "B",
+        "text": "192.168.1.64/29"
+      },
+      {
+        "label": "C",
+        "text": "192.168.1.32/27"
+      },
+      {
+        "label": "D",
+        "text": "192.168.1.32/28"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "multi": false,
+    "correctCount": 1,
+    "explanation": "Explique: Pour le sous-réseau 192.168.1.64/26, il y a 6 bits pour les adresses d’hôte, ce qui donne 64 adresses possibles. Cependant, les premier et dernier sous-réseaux sont les adresses de réseau et de diffusion pour ce sous-réseau. Par conséquent, la plage d’adresses d’hôtes pour ce sous-réseau est de 192.168.1.65 à 192.168.1.126. Les autres sous-réseaux ne contiennent pas l’adresse 192.168.1.96 comme adresse hôte valide."
+  },
+  {
+    "id": 27,
+    "question": "Quelles propositions relatives aux adresses IP et MAC dans le cadre de la transmission des données si NAT n’est pas impliquée sont exactes ? (Choisissez deux réponses.)",
+    "image": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "Chaque fois qu’une trame est encapsulée avec une nouvelle adresse MAC de destination, une nouvelle adresse IP de destination est nécessaire."
+      },
+      {
+        "label": "B",
+        "text": "Les adresses MAC de destination ne changent jamais dans une trame qui traverse sept routeurs."
+      },
+      {
+        "label": "C",
+        "text": "Un paquet qui a traversé quatre routeurs a modifié l’adresse IP de destination quatre fois."
+      },
+      {
+        "label": "D",
+        "text": "Les adresses IP de destination d’un en-tête de paquet restent les mêmes tout au long du chemin vers un hôte cible."
+      },
+      {
+        "label": "E",
+        "text": "Les adresses MAC source et de destination ont une signification locale et changent chaque fois qu’une trame passe d’un réseau local à un autre."
+      }
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "multi": true,
+    "correctCount": 2,
+    "explanation": ""
+  },
+  {
+    "id": 28,
+    "question": "Quelles couches du modèle OSI équivalent à la couche application du modèle TCP/IP ? (Choisissez trois propositions.)",
+    "image": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "réseau"
+      },
+      {
+        "label": "B",
+        "text": "application"
+      },
+      {
+        "label": "C",
+        "text": "transport"
+      },
+      {
+        "label": "D",
+        "text": "session"
+      },
+      {
+        "label": "E",
+        "text": "présentation"
+      },
+      {
+        "label": "F",
+        "text": "liaison de données"
+      }
+    ],
+    "correct": [
+      "A",
+      "B",
+      "C"
+    ],
+    "multi": true,
+    "correctCount": 3,
+    "explanation": "Explique: Le modèle TCP/IP se compose de quatre couches : application, transport, Internet et accès réseau. Le modèle OSI se compose de sept couches : application, présentation, session, transport, réseau, liaison de données et physique. Les trois couches supérieures du modèle OSI : application, présentation et session correspondent à la couche d’application du modèle TCP/IP."
+  },
+  {
+    "id": 29,
+    "question": "Quelles sont les deux solutions de sécurité les plus susceptibles d’être utilisées uniquement dans un environnement d’entreprise ? (Choisissez deux réponses.)",
+    "image": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "antispyware"
+      },
+      {
+        "label": "B",
+        "text": "réseaux privés virtuels"
+      },
+      {
+        "label": "C",
+        "text": "systèmes de prévention des intrusions"
+      },
+      {
+        "label": "D",
+        "text": "mots de passe forts"
+      },
+      {
+        "label": "E",
+        "text": "logiciel antivirus"
+      }
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "multi": true,
+    "correctCount": 2,
+    "explanation": ""
+  },
+  {
+    "id": 30,
+    "question": "Que se passe-t-il lorsque la commande transport input ssh est entrée sur les lignes vty du switch?",
+    "image": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "Le commutateur nécessite une combinaison nom d’utilisateur/mot de passe pour l’accès à distance."
+      },
+      {
+        "label": "B",
+        "text": "Le client SSH sur le commutateur est activé."
+      },
+      {
+        "label": "C",
+        "text": "La communication entre le commutateur et les utilisateurs distants est cryptée."
+      },
+      {
+        "label": "D",
+        "text": "Le commutateur nécessite des connexions à distance via un logiciel client propriétaire."
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "multi": false,
+    "correctCount": 1,
+    "explanation": "Explique: La commande transport input ssh lorsqu’elle est saisie sur le commutateur vty (lignes de terminal virtuel) chiffrera toutes les connexions telnet contrôlées entrantes."
+  }
+]
